@@ -1,0 +1,515 @@
+"C:\Program Files\Java\jdk-11.0.2\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.3.4\lib\idea_rt.jar=3223:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.3.4\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\furka\IdeaProjects\HW2\out\production\HW2 SampleMain
+----------------------
+Add new experiment:
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+List experiment view:
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+List day view:
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+----------------------
+Add new experiment:
+Experiment{setup='setup1', day=2, time='timeInfo', accuracy=0.1, completed=true}
+List experiment view:
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup1', day=2, time='timeInfo', accuracy=0.1, completed=true}
+List day view:
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+----------------------
+Add new experiment:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+List experiment view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup1', day=2, time='timeInfo', accuracy=0.1, completed=true}
+List day view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+----------------------
+Add new experiment:
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+List experiment view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup1', day=2, time='timeInfo', accuracy=0.1, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+List day view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+----------------------
+Add new experiment:
+Experiment{setup='setup4', day=0, time='timeInfo', accuracy=0.4, completed=true}
+List experiment view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup4', day=0, time='timeInfo', accuracy=0.4, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup1', day=2, time='timeInfo', accuracy=0.1, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+List day view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+----------------------
+Add new experiment:
+Experiment{setup='setup5', day=2, time='timeInfo', accuracy=0.5, completed=true}
+List experiment view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup4', day=0, time='timeInfo', accuracy=0.4, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup1', day=2, time='timeInfo', accuracy=0.1, completed=true}
+Experiment{setup='setup5', day=2, time='timeInfo', accuracy=0.5, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+List day view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+----------------------
+Add new experiment:
+Experiment{setup='setup6', day=3, time='timeInfo', accuracy=0.6, completed=true}
+List experiment view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup4', day=0, time='timeInfo', accuracy=0.4, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup1', day=2, time='timeInfo', accuracy=0.1, completed=true}
+Experiment{setup='setup5', day=2, time='timeInfo', accuracy=0.5, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+Experiment{setup='setup6', day=3, time='timeInfo', accuracy=0.6, completed=true}
+List day view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+----------------------
+Add new experiment:
+Experiment{setup='setup7', day=2, time='timeInfo', accuracy=0.7, completed=true}
+List experiment view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup4', day=0, time='timeInfo', accuracy=0.4, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup1', day=2, time='timeInfo', accuracy=0.1, completed=true}
+Experiment{setup='setup5', day=2, time='timeInfo', accuracy=0.5, completed=true}
+Experiment{setup='setup7', day=2, time='timeInfo', accuracy=0.7, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+Experiment{setup='setup6', day=3, time='timeInfo', accuracy=0.6, completed=true}
+List day view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+----------------------
+Add new experiment:
+Experiment{setup='setup8', day=0, time='timeInfo', accuracy=0.8, completed=true}
+List experiment view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup4', day=0, time='timeInfo', accuracy=0.4, completed=true}
+Experiment{setup='setup8', day=0, time='timeInfo', accuracy=0.8, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup1', day=2, time='timeInfo', accuracy=0.1, completed=true}
+Experiment{setup='setup5', day=2, time='timeInfo', accuracy=0.5, completed=true}
+Experiment{setup='setup7', day=2, time='timeInfo', accuracy=0.7, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+Experiment{setup='setup6', day=3, time='timeInfo', accuracy=0.6, completed=true}
+List day view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+----------------------
+Add new experiment:
+Experiment{setup='setup9', day=3, time='timeInfo', accuracy=0.9, completed=true}
+List experiment view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup4', day=0, time='timeInfo', accuracy=0.4, completed=true}
+Experiment{setup='setup8', day=0, time='timeInfo', accuracy=0.8, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup1', day=2, time='timeInfo', accuracy=0.1, completed=true}
+Experiment{setup='setup5', day=2, time='timeInfo', accuracy=0.5, completed=true}
+Experiment{setup='setup7', day=2, time='timeInfo', accuracy=0.7, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+Experiment{setup='setup6', day=3, time='timeInfo', accuracy=0.6, completed=true}
+Experiment{setup='setup9', day=3, time='timeInfo', accuracy=0.9, completed=true}
+List day view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+----------------------
+Add new experiment:
+Experiment{setup='setup10', day=2, time='timeInfo', accuracy=1.0, completed=true}
+List experiment view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup4', day=0, time='timeInfo', accuracy=0.4, completed=true}
+Experiment{setup='setup8', day=0, time='timeInfo', accuracy=0.8, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup1', day=2, time='timeInfo', accuracy=0.1, completed=true}
+Experiment{setup='setup5', day=2, time='timeInfo', accuracy=0.5, completed=true}
+Experiment{setup='setup7', day=2, time='timeInfo', accuracy=0.7, completed=true}
+Experiment{setup='setup10', day=2, time='timeInfo', accuracy=1.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+Experiment{setup='setup6', day=3, time='timeInfo', accuracy=0.6, completed=true}
+Experiment{setup='setup9', day=3, time='timeInfo', accuracy=0.9, completed=true}
+List day view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+----------------------
+Add new experiment:
+Experiment{setup='setup11', day=1, time='timeInfo', accuracy=1.1, completed=true}
+List experiment view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup4', day=0, time='timeInfo', accuracy=0.4, completed=true}
+Experiment{setup='setup8', day=0, time='timeInfo', accuracy=0.8, completed=true}
+Experiment{setup='setup11', day=1, time='timeInfo', accuracy=1.1, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup1', day=2, time='timeInfo', accuracy=0.1, completed=true}
+Experiment{setup='setup5', day=2, time='timeInfo', accuracy=0.5, completed=true}
+Experiment{setup='setup7', day=2, time='timeInfo', accuracy=0.7, completed=true}
+Experiment{setup='setup10', day=2, time='timeInfo', accuracy=1.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+Experiment{setup='setup6', day=3, time='timeInfo', accuracy=0.6, completed=true}
+Experiment{setup='setup9', day=3, time='timeInfo', accuracy=0.9, completed=true}
+List day view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup11', day=1, time='timeInfo', accuracy=1.1, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+----------------------
+Add new experiment:
+Experiment{setup='setup12', day=3, time='timeInfo', accuracy=1.2, completed=true}
+List experiment view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup4', day=0, time='timeInfo', accuracy=0.4, completed=true}
+Experiment{setup='setup8', day=0, time='timeInfo', accuracy=0.8, completed=true}
+Experiment{setup='setup11', day=1, time='timeInfo', accuracy=1.1, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup1', day=2, time='timeInfo', accuracy=0.1, completed=true}
+Experiment{setup='setup5', day=2, time='timeInfo', accuracy=0.5, completed=true}
+Experiment{setup='setup7', day=2, time='timeInfo', accuracy=0.7, completed=true}
+Experiment{setup='setup10', day=2, time='timeInfo', accuracy=1.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+Experiment{setup='setup6', day=3, time='timeInfo', accuracy=0.6, completed=true}
+Experiment{setup='setup9', day=3, time='timeInfo', accuracy=0.9, completed=true}
+Experiment{setup='setup12', day=3, time='timeInfo', accuracy=1.2, completed=true}
+List day view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup11', day=1, time='timeInfo', accuracy=1.1, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+----------------------
+Add new experiment:
+Experiment{setup='setup13', day=0, time='timeInfo', accuracy=1.3, completed=true}
+List experiment view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup4', day=0, time='timeInfo', accuracy=0.4, completed=true}
+Experiment{setup='setup8', day=0, time='timeInfo', accuracy=0.8, completed=true}
+Experiment{setup='setup13', day=0, time='timeInfo', accuracy=1.3, completed=true}
+Experiment{setup='setup11', day=1, time='timeInfo', accuracy=1.1, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup1', day=2, time='timeInfo', accuracy=0.1, completed=true}
+Experiment{setup='setup5', day=2, time='timeInfo', accuracy=0.5, completed=true}
+Experiment{setup='setup7', day=2, time='timeInfo', accuracy=0.7, completed=true}
+Experiment{setup='setup10', day=2, time='timeInfo', accuracy=1.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+Experiment{setup='setup6', day=3, time='timeInfo', accuracy=0.6, completed=true}
+Experiment{setup='setup9', day=3, time='timeInfo', accuracy=0.9, completed=true}
+Experiment{setup='setup12', day=3, time='timeInfo', accuracy=1.2, completed=true}
+List day view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup11', day=1, time='timeInfo', accuracy=1.1, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+----------------------
+Add new experiment:
+Experiment{setup='setup14', day=0, time='timeInfo', accuracy=1.4, completed=true}
+List experiment view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup4', day=0, time='timeInfo', accuracy=0.4, completed=true}
+Experiment{setup='setup8', day=0, time='timeInfo', accuracy=0.8, completed=true}
+Experiment{setup='setup13', day=0, time='timeInfo', accuracy=1.3, completed=true}
+Experiment{setup='setup14', day=0, time='timeInfo', accuracy=1.4, completed=true}
+Experiment{setup='setup11', day=1, time='timeInfo', accuracy=1.1, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup1', day=2, time='timeInfo', accuracy=0.1, completed=true}
+Experiment{setup='setup5', day=2, time='timeInfo', accuracy=0.5, completed=true}
+Experiment{setup='setup7', day=2, time='timeInfo', accuracy=0.7, completed=true}
+Experiment{setup='setup10', day=2, time='timeInfo', accuracy=1.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+Experiment{setup='setup6', day=3, time='timeInfo', accuracy=0.6, completed=true}
+Experiment{setup='setup9', day=3, time='timeInfo', accuracy=0.9, completed=true}
+Experiment{setup='setup12', day=3, time='timeInfo', accuracy=1.2, completed=true}
+List day view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup11', day=1, time='timeInfo', accuracy=1.1, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+----------------------
+Add new experiment:
+Experiment{setup='setup15', day=1, time='timeInfo', accuracy=1.5, completed=true}
+List experiment view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup4', day=0, time='timeInfo', accuracy=0.4, completed=true}
+Experiment{setup='setup8', day=0, time='timeInfo', accuracy=0.8, completed=true}
+Experiment{setup='setup13', day=0, time='timeInfo', accuracy=1.3, completed=true}
+Experiment{setup='setup14', day=0, time='timeInfo', accuracy=1.4, completed=true}
+Experiment{setup='setup11', day=1, time='timeInfo', accuracy=1.1, completed=true}
+Experiment{setup='setup15', day=1, time='timeInfo', accuracy=1.5, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup1', day=2, time='timeInfo', accuracy=0.1, completed=true}
+Experiment{setup='setup5', day=2, time='timeInfo', accuracy=0.5, completed=true}
+Experiment{setup='setup7', day=2, time='timeInfo', accuracy=0.7, completed=true}
+Experiment{setup='setup10', day=2, time='timeInfo', accuracy=1.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+Experiment{setup='setup6', day=3, time='timeInfo', accuracy=0.6, completed=true}
+Experiment{setup='setup9', day=3, time='timeInfo', accuracy=0.9, completed=true}
+Experiment{setup='setup12', day=3, time='timeInfo', accuracy=1.2, completed=true}
+List day view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup11', day=1, time='timeInfo', accuracy=1.1, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+----------------------
+Add new experiment:
+Experiment{setup='setup16', day=3, time='timeInfo', accuracy=1.6, completed=true}
+List experiment view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup4', day=0, time='timeInfo', accuracy=0.4, completed=true}
+Experiment{setup='setup8', day=0, time='timeInfo', accuracy=0.8, completed=true}
+Experiment{setup='setup13', day=0, time='timeInfo', accuracy=1.3, completed=true}
+Experiment{setup='setup14', day=0, time='timeInfo', accuracy=1.4, completed=true}
+Experiment{setup='setup11', day=1, time='timeInfo', accuracy=1.1, completed=true}
+Experiment{setup='setup15', day=1, time='timeInfo', accuracy=1.5, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup1', day=2, time='timeInfo', accuracy=0.1, completed=true}
+Experiment{setup='setup5', day=2, time='timeInfo', accuracy=0.5, completed=true}
+Experiment{setup='setup7', day=2, time='timeInfo', accuracy=0.7, completed=true}
+Experiment{setup='setup10', day=2, time='timeInfo', accuracy=1.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+Experiment{setup='setup6', day=3, time='timeInfo', accuracy=0.6, completed=true}
+Experiment{setup='setup9', day=3, time='timeInfo', accuracy=0.9, completed=true}
+Experiment{setup='setup12', day=3, time='timeInfo', accuracy=1.2, completed=true}
+Experiment{setup='setup16', day=3, time='timeInfo', accuracy=1.6, completed=true}
+List day view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup11', day=1, time='timeInfo', accuracy=1.1, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+----------------------
+Add new experiment:
+Experiment{setup='setup17', day=0, time='timeInfo', accuracy=1.7, completed=true}
+List experiment view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup4', day=0, time='timeInfo', accuracy=0.4, completed=true}
+Experiment{setup='setup8', day=0, time='timeInfo', accuracy=0.8, completed=true}
+Experiment{setup='setup13', day=0, time='timeInfo', accuracy=1.3, completed=true}
+Experiment{setup='setup14', day=0, time='timeInfo', accuracy=1.4, completed=true}
+Experiment{setup='setup17', day=0, time='timeInfo', accuracy=1.7, completed=true}
+Experiment{setup='setup11', day=1, time='timeInfo', accuracy=1.1, completed=true}
+Experiment{setup='setup15', day=1, time='timeInfo', accuracy=1.5, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup1', day=2, time='timeInfo', accuracy=0.1, completed=true}
+Experiment{setup='setup5', day=2, time='timeInfo', accuracy=0.5, completed=true}
+Experiment{setup='setup7', day=2, time='timeInfo', accuracy=0.7, completed=true}
+Experiment{setup='setup10', day=2, time='timeInfo', accuracy=1.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+Experiment{setup='setup6', day=3, time='timeInfo', accuracy=0.6, completed=true}
+Experiment{setup='setup9', day=3, time='timeInfo', accuracy=0.9, completed=true}
+Experiment{setup='setup12', day=3, time='timeInfo', accuracy=1.2, completed=true}
+Experiment{setup='setup16', day=3, time='timeInfo', accuracy=1.6, completed=true}
+List day view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup11', day=1, time='timeInfo', accuracy=1.1, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+----------------------
+Add new experiment:
+Experiment{setup='setup18', day=3, time='timeInfo', accuracy=1.8, completed=true}
+List experiment view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup4', day=0, time='timeInfo', accuracy=0.4, completed=true}
+Experiment{setup='setup8', day=0, time='timeInfo', accuracy=0.8, completed=true}
+Experiment{setup='setup13', day=0, time='timeInfo', accuracy=1.3, completed=true}
+Experiment{setup='setup14', day=0, time='timeInfo', accuracy=1.4, completed=true}
+Experiment{setup='setup17', day=0, time='timeInfo', accuracy=1.7, completed=true}
+Experiment{setup='setup11', day=1, time='timeInfo', accuracy=1.1, completed=true}
+Experiment{setup='setup15', day=1, time='timeInfo', accuracy=1.5, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup1', day=2, time='timeInfo', accuracy=0.1, completed=true}
+Experiment{setup='setup5', day=2, time='timeInfo', accuracy=0.5, completed=true}
+Experiment{setup='setup7', day=2, time='timeInfo', accuracy=0.7, completed=true}
+Experiment{setup='setup10', day=2, time='timeInfo', accuracy=1.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+Experiment{setup='setup6', day=3, time='timeInfo', accuracy=0.6, completed=true}
+Experiment{setup='setup9', day=3, time='timeInfo', accuracy=0.9, completed=true}
+Experiment{setup='setup12', day=3, time='timeInfo', accuracy=1.2, completed=true}
+Experiment{setup='setup16', day=3, time='timeInfo', accuracy=1.6, completed=true}
+Experiment{setup='setup18', day=3, time='timeInfo', accuracy=1.8, completed=true}
+List day view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup11', day=1, time='timeInfo', accuracy=1.1, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+----------------------
+Add new experiment:
+Experiment{setup='setup19', day=3, time='timeInfo', accuracy=1.9, completed=true}
+List experiment view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup4', day=0, time='timeInfo', accuracy=0.4, completed=true}
+Experiment{setup='setup8', day=0, time='timeInfo', accuracy=0.8, completed=true}
+Experiment{setup='setup13', day=0, time='timeInfo', accuracy=1.3, completed=true}
+Experiment{setup='setup14', day=0, time='timeInfo', accuracy=1.4, completed=true}
+Experiment{setup='setup17', day=0, time='timeInfo', accuracy=1.7, completed=true}
+Experiment{setup='setup11', day=1, time='timeInfo', accuracy=1.1, completed=true}
+Experiment{setup='setup15', day=1, time='timeInfo', accuracy=1.5, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup1', day=2, time='timeInfo', accuracy=0.1, completed=true}
+Experiment{setup='setup5', day=2, time='timeInfo', accuracy=0.5, completed=true}
+Experiment{setup='setup7', day=2, time='timeInfo', accuracy=0.7, completed=true}
+Experiment{setup='setup10', day=2, time='timeInfo', accuracy=1.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+Experiment{setup='setup6', day=3, time='timeInfo', accuracy=0.6, completed=true}
+Experiment{setup='setup9', day=3, time='timeInfo', accuracy=0.9, completed=true}
+Experiment{setup='setup12', day=3, time='timeInfo', accuracy=1.2, completed=true}
+Experiment{setup='setup16', day=3, time='timeInfo', accuracy=1.6, completed=true}
+Experiment{setup='setup18', day=3, time='timeInfo', accuracy=1.8, completed=true}
+Experiment{setup='setup19', day=3, time='timeInfo', accuracy=1.9, completed=true}
+List day view:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup11', day=1, time='timeInfo', accuracy=1.1, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+----------------------
+getExp(0,3) Result:
+Experiment{setup='setup13', day=0, time='timeInfo', accuracy=1.3, completed=true}
+----------------------
+setExp(0,3), accuracy=1.0
+----------------------
+getExp Result:
+Experiment{setup='setup13', day=0, time='timeInfo', accuracy=1.0, completed=true}
+----------------------
+listExp(0) Result:
+Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+Experiment{setup='setup4', day=0, time='timeInfo', accuracy=0.4, completed=true}
+Experiment{setup='setup8', day=0, time='timeInfo', accuracy=0.8, completed=true}
+Experiment{setup='setup13', day=0, time='timeInfo', accuracy=1.0, completed=true}
+Experiment{setup='setup14', day=0, time='timeInfo', accuracy=1.4, completed=true}
+Experiment{setup='setup17', day=0, time='timeInfo', accuracy=1.7, completed=true}
+----------------------
+removeExp(0,0) Result:
+-Experiment{setup='setup2', day=0, time='timeInfo', accuracy=0.2, completed=true}
+List experiment view:
+Experiment{setup='setup4', day=0, time='timeInfo', accuracy=0.4, completed=true}
+Experiment{setup='setup8', day=0, time='timeInfo', accuracy=0.8, completed=true}
+Experiment{setup='setup13', day=0, time='timeInfo', accuracy=1.0, completed=true}
+Experiment{setup='setup14', day=0, time='timeInfo', accuracy=1.4, completed=true}
+Experiment{setup='setup17', day=0, time='timeInfo', accuracy=1.7, completed=true}
+Experiment{setup='setup11', day=1, time='timeInfo', accuracy=1.1, completed=true}
+Experiment{setup='setup15', day=1, time='timeInfo', accuracy=1.5, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup1', day=2, time='timeInfo', accuracy=0.1, completed=true}
+Experiment{setup='setup5', day=2, time='timeInfo', accuracy=0.5, completed=true}
+Experiment{setup='setup7', day=2, time='timeInfo', accuracy=0.7, completed=true}
+Experiment{setup='setup10', day=2, time='timeInfo', accuracy=1.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+Experiment{setup='setup6', day=3, time='timeInfo', accuracy=0.6, completed=true}
+Experiment{setup='setup9', day=3, time='timeInfo', accuracy=0.9, completed=true}
+Experiment{setup='setup12', day=3, time='timeInfo', accuracy=1.2, completed=true}
+Experiment{setup='setup16', day=3, time='timeInfo', accuracy=1.6, completed=true}
+Experiment{setup='setup18', day=3, time='timeInfo', accuracy=1.8, completed=true}
+Experiment{setup='setup19', day=3, time='timeInfo', accuracy=1.9, completed=true}
+List day view:
+Experiment{setup='setup4', day=0, time='timeInfo', accuracy=0.4, completed=true}
+Experiment{setup='setup11', day=1, time='timeInfo', accuracy=1.1, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+----------------------
+removeExp(1,0) Result:
+-Experiment{setup='setup11', day=1, time='timeInfo', accuracy=1.1, completed=true}
+List experiment view:
+Experiment{setup='setup4', day=0, time='timeInfo', accuracy=0.4, completed=true}
+Experiment{setup='setup8', day=0, time='timeInfo', accuracy=0.8, completed=true}
+Experiment{setup='setup13', day=0, time='timeInfo', accuracy=1.0, completed=true}
+Experiment{setup='setup14', day=0, time='timeInfo', accuracy=1.4, completed=true}
+Experiment{setup='setup17', day=0, time='timeInfo', accuracy=1.7, completed=true}
+Experiment{setup='setup15', day=1, time='timeInfo', accuracy=1.5, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup1', day=2, time='timeInfo', accuracy=0.1, completed=true}
+Experiment{setup='setup5', day=2, time='timeInfo', accuracy=0.5, completed=true}
+Experiment{setup='setup7', day=2, time='timeInfo', accuracy=0.7, completed=true}
+Experiment{setup='setup10', day=2, time='timeInfo', accuracy=1.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+Experiment{setup='setup6', day=3, time='timeInfo', accuracy=0.6, completed=true}
+Experiment{setup='setup9', day=3, time='timeInfo', accuracy=0.9, completed=true}
+Experiment{setup='setup12', day=3, time='timeInfo', accuracy=1.2, completed=true}
+Experiment{setup='setup16', day=3, time='timeInfo', accuracy=1.6, completed=true}
+Experiment{setup='setup18', day=3, time='timeInfo', accuracy=1.8, completed=true}
+Experiment{setup='setup19', day=3, time='timeInfo', accuracy=1.9, completed=true}
+List day view:
+Experiment{setup='setup4', day=0, time='timeInfo', accuracy=0.4, completed=true}
+Experiment{setup='setup15', day=1, time='timeInfo', accuracy=1.5, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+----------------------
+removeExp(1,0) Result:
+-Experiment{setup='setup15', day=1, time='timeInfo', accuracy=1.5, completed=true}
+List experiment view:
+Experiment{setup='setup4', day=0, time='timeInfo', accuracy=0.4, completed=true}
+Experiment{setup='setup8', day=0, time='timeInfo', accuracy=0.8, completed=true}
+Experiment{setup='setup13', day=0, time='timeInfo', accuracy=1.0, completed=true}
+Experiment{setup='setup14', day=0, time='timeInfo', accuracy=1.4, completed=true}
+Experiment{setup='setup17', day=0, time='timeInfo', accuracy=1.7, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup1', day=2, time='timeInfo', accuracy=0.1, completed=true}
+Experiment{setup='setup5', day=2, time='timeInfo', accuracy=0.5, completed=true}
+Experiment{setup='setup7', day=2, time='timeInfo', accuracy=0.7, completed=true}
+Experiment{setup='setup10', day=2, time='timeInfo', accuracy=1.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+Experiment{setup='setup6', day=3, time='timeInfo', accuracy=0.6, completed=true}
+Experiment{setup='setup9', day=3, time='timeInfo', accuracy=0.9, completed=true}
+Experiment{setup='setup12', day=3, time='timeInfo', accuracy=1.2, completed=true}
+Experiment{setup='setup16', day=3, time='timeInfo', accuracy=1.6, completed=true}
+Experiment{setup='setup18', day=3, time='timeInfo', accuracy=1.8, completed=true}
+Experiment{setup='setup19', day=3, time='timeInfo', accuracy=1.9, completed=true}
+List day view:
+Experiment{setup='setup4', day=0, time='timeInfo', accuracy=0.4, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+----------------------
+removeExp(3,6) Result:
+-Experiment{setup='setup19', day=3, time='timeInfo', accuracy=1.9, completed=true}
+List experiment view:
+Experiment{setup='setup4', day=0, time='timeInfo', accuracy=0.4, completed=true}
+Experiment{setup='setup8', day=0, time='timeInfo', accuracy=0.8, completed=true}
+Experiment{setup='setup13', day=0, time='timeInfo', accuracy=1.0, completed=true}
+Experiment{setup='setup14', day=0, time='timeInfo', accuracy=1.4, completed=true}
+Experiment{setup='setup17', day=0, time='timeInfo', accuracy=1.7, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup1', day=2, time='timeInfo', accuracy=0.1, completed=true}
+Experiment{setup='setup5', day=2, time='timeInfo', accuracy=0.5, completed=true}
+Experiment{setup='setup7', day=2, time='timeInfo', accuracy=0.7, completed=true}
+Experiment{setup='setup10', day=2, time='timeInfo', accuracy=1.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+Experiment{setup='setup6', day=3, time='timeInfo', accuracy=0.6, completed=true}
+Experiment{setup='setup9', day=3, time='timeInfo', accuracy=0.9, completed=true}
+Experiment{setup='setup12', day=3, time='timeInfo', accuracy=1.2, completed=true}
+Experiment{setup='setup16', day=3, time='timeInfo', accuracy=1.6, completed=true}
+Experiment{setup='setup18', day=3, time='timeInfo', accuracy=1.8, completed=true}
+List day view:
+Experiment{setup='setup4', day=0, time='timeInfo', accuracy=0.4, completed=true}
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+----------------------
+orderExperiment Result:
+Experiment{setup='setup0', day=2, time='timeInfo', accuracy=0.0, completed=true}
+Experiment{setup='setup1', day=2, time='timeInfo', accuracy=0.1, completed=true}
+Experiment{setup='setup3', day=3, time='timeInfo', accuracy=0.3, completed=true}
+Experiment{setup='setup4', day=0, time='timeInfo', accuracy=0.4, completed=true}
+Experiment{setup='setup5', day=2, time='timeInfo', accuracy=0.5, completed=true}
+Experiment{setup='setup6', day=3, time='timeInfo', accuracy=0.6, completed=true}
+Experiment{setup='setup7', day=2, time='timeInfo', accuracy=0.7, completed=true}
+Experiment{setup='setup8', day=0, time='timeInfo', accuracy=0.8, completed=true}
+Experiment{setup='setup9', day=3, time='timeInfo', accuracy=0.9, completed=true}
+Experiment{setup='setup10', day=2, time='timeInfo', accuracy=1.0, completed=true}
+Experiment{setup='setup13', day=0, time='timeInfo', accuracy=1.0, completed=true}
+Experiment{setup='setup12', day=3, time='timeInfo', accuracy=1.2, completed=true}
+Experiment{setup='setup14', day=0, time='timeInfo', accuracy=1.4, completed=true}
+Experiment{setup='setup16', day=3, time='timeInfo', accuracy=1.6, completed=true}
+Experiment{setup='setup17', day=0, time='timeInfo', accuracy=1.7, completed=true}
+Experiment{setup='setup18', day=3, time='timeInfo', accuracy=1.8, completed=true}
+
+Process finished with exit code 0

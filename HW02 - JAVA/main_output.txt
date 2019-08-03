@@ -1,0 +1,473 @@
+"C:\Program Files\Java\jdk-11.0.2\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.3.4\lib\idea_rt.jar=3216:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.3.4\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\furka\IdeaProjects\HW2\out\production\HW2 Main
+
+------------------------------- DRIVER -------------------------------
+List experiment view:
+Experiment{setup='Exp1', day=1, time='02:42:53', accuracy=65.0, completed=true}
+Experiment{setup='Exp2', day=1, time='08:12:23', accuracy=-1.0, completed=false}
+Experiment{setup='Exp3', day=1, time='19:18:13', accuracy=27.0, completed=true}
+Experiment{setup='Exp1', day=2, time='07:49:25', accuracy=-1.0, completed=false}
+Experiment{setup='Exp2', day=2, time='10:22:53', accuracy=68.0, completed=true}
+Experiment{setup='Exp1', day=3, time='12:02:58', accuracy=83.0, completed=true}
+Experiment{setup='Exp1', day=4, time='05:45:29', accuracy=44.0, completed=true}
+Experiment{setup='Exp2', day=4, time='09:37:19', accuracy=56.0, completed=true}
+Experiment{setup='Exp3', day=4, time='13:22:54', accuracy=-1.0, completed=false}
+Experiment{setup='Exp1', day=6, time='08:20:47', accuracy=-1.0, completed=false}
+Experiment{setup='Exp2', day=6, time='18:32:41', accuracy=77.0, completed=true}
+Experiment{setup='Exp3', day=6, time='21:23:45', accuracy=52.0, completed=true}
+Experiment{setup='Exp1', day=7, time='16:33:47', accuracy=-1.0, completed=false}
+Experiment{setup='Exp1', day=8, time='01:36:17', accuracy=59.0, completed=true}
+Experiment{setup='Exp2', day=8, time='09:08:39', accuracy=-1.0, completed=false}
+Experiment{setup='Exp1', day=9, time='03:44:38', accuracy=63.0, completed=true}
+Experiment{setup='Exp2', day=9, time='09:12:51', accuracy=-1.0, completed=false}
+Experiment{setup='Exp3', day=9, time='14:42:01', accuracy=49.0, completed=true}
+Experiment{setup='Exp1', day=10, time='09:52:55', accuracy=84.0, completed=true}
+List day view:
+Experiment{setup='Exp1', day=1, time='02:42:53', accuracy=65.0, completed=true}
+Experiment{setup='Exp1', day=2, time='07:49:25', accuracy=-1.0, completed=false}
+Experiment{setup='Exp1', day=3, time='12:02:58', accuracy=83.0, completed=true}
+Experiment{setup='Exp1', day=4, time='05:45:29', accuracy=44.0, completed=true}
+Experiment{setup='Exp1', day=6, time='08:20:47', accuracy=-1.0, completed=false}
+Experiment{setup='Exp1', day=7, time='16:33:47', accuracy=-1.0, completed=false}
+Experiment{setup='Exp1', day=8, time='01:36:17', accuracy=59.0, completed=true}
+Experiment{setup='Exp1', day=9, time='03:44:38', accuracy=63.0, completed=true}
+Experiment{setup='Exp1', day=10, time='09:52:55', accuracy=84.0, completed=true}
+
+* All tests shall be carried out on the above draft. You need to check the steps in sequence. *
+
+/* ------------------------  ADD EXPERIMENT TEST ------------------------ *\ 
+
+/* STEP 1 : addExp(Experiment) method : insert experiment to the end of the day *\ 
+
+Some experiments will be added using the addExp(...) method. Experiments to be added are as follows:
+ <***1***> 
+Experiment{setup='Exp1', day=5, time='11:39:27', accuracy=73.0, completed=true} 
+
+<***2***> 
+
+Experiment{setup='Exp2', day=10, time='19:05:08', accuracy=-1.0, completed=false} 
+<***3***> 
+
+Experiment{setup='Exp4', day=1, time='23:02:05', accuracy=97.0, completed=true} 
+<***4***> 
+
+Experiment{setup='Exp4', day=9, time='19:37:05', accuracy=73.0, completed=true} 
+<***5***> 
+
+Experiment{setup='Exp4', day=4, time='16:02:05', accuracy=76.0, completed=true} 
+<***6***> 
+
+Experiment{setup='Exp3', day=2, time='16:17:44', accuracy=-1.0, completed=false} 
+<***7***> 
+
+Experiment{setup='Exp2', day=5, time='21:32:15', accuracy=54.0, completed=true} 
+<***8***> 
+Experiment{setup='Exp5', day=4, time='20:20:53', accuracy=25.0, completed=true} 
+
+/* ------------------------ AFTER ADD EXPERIMENT STEP ------------------------ *\ 
+List experiment view:
+Experiment{setup='Exp1', day=1, time='02:42:53', accuracy=65.0, completed=true}
+Experiment{setup='Exp2', day=1, time='08:12:23', accuracy=-1.0, completed=false}
+Experiment{setup='Exp3', day=1, time='19:18:13', accuracy=27.0, completed=true}
+Experiment{setup='Exp4', day=1, time='23:02:05', accuracy=97.0, completed=true}
+Experiment{setup='Exp1', day=2, time='07:49:25', accuracy=-1.0, completed=false}
+Experiment{setup='Exp2', day=2, time='10:22:53', accuracy=68.0, completed=true}
+Experiment{setup='Exp3', day=2, time='16:17:44', accuracy=-1.0, completed=false}
+Experiment{setup='Exp1', day=3, time='12:02:58', accuracy=83.0, completed=true}
+Experiment{setup='Exp1', day=4, time='05:45:29', accuracy=44.0, completed=true}
+Experiment{setup='Exp2', day=4, time='09:37:19', accuracy=56.0, completed=true}
+Experiment{setup='Exp3', day=4, time='13:22:54', accuracy=-1.0, completed=false}
+Experiment{setup='Exp4', day=4, time='16:02:05', accuracy=76.0, completed=true}
+Experiment{setup='Exp5', day=4, time='20:20:53', accuracy=25.0, completed=true}
+Experiment{setup='Exp1', day=5, time='11:39:27', accuracy=73.0, completed=true}
+Experiment{setup='Exp2', day=5, time='21:32:15', accuracy=54.0, completed=true}
+Experiment{setup='Exp1', day=6, time='08:20:47', accuracy=-1.0, completed=false}
+Experiment{setup='Exp2', day=6, time='18:32:41', accuracy=77.0, completed=true}
+Experiment{setup='Exp3', day=6, time='21:23:45', accuracy=52.0, completed=true}
+Experiment{setup='Exp1', day=7, time='16:33:47', accuracy=-1.0, completed=false}
+Experiment{setup='Exp1', day=8, time='01:36:17', accuracy=59.0, completed=true}
+Experiment{setup='Exp2', day=8, time='09:08:39', accuracy=-1.0, completed=false}
+Experiment{setup='Exp1', day=9, time='03:44:38', accuracy=63.0, completed=true}
+Experiment{setup='Exp2', day=9, time='09:12:51', accuracy=-1.0, completed=false}
+Experiment{setup='Exp3', day=9, time='14:42:01', accuracy=49.0, completed=true}
+Experiment{setup='Exp4', day=9, time='19:37:05', accuracy=73.0, completed=true}
+Experiment{setup='Exp1', day=10, time='09:52:55', accuracy=84.0, completed=true}
+Experiment{setup='Exp2', day=10, time='19:05:08', accuracy=-1.0, completed=false}
+List day view:
+Experiment{setup='Exp1', day=1, time='02:42:53', accuracy=65.0, completed=true}
+Experiment{setup='Exp1', day=2, time='07:49:25', accuracy=-1.0, completed=false}
+Experiment{setup='Exp1', day=3, time='12:02:58', accuracy=83.0, completed=true}
+Experiment{setup='Exp1', day=4, time='05:45:29', accuracy=44.0, completed=true}
+Experiment{setup='Exp1', day=5, time='11:39:27', accuracy=73.0, completed=true}
+Experiment{setup='Exp1', day=6, time='08:20:47', accuracy=-1.0, completed=false}
+Experiment{setup='Exp1', day=7, time='16:33:47', accuracy=-1.0, completed=false}
+Experiment{setup='Exp1', day=8, time='01:36:17', accuracy=59.0, completed=true}
+Experiment{setup='Exp1', day=9, time='03:44:38', accuracy=63.0, completed=true}
+Experiment{setup='Exp1', day=10, time='09:52:55', accuracy=84.0, completed=true}
+
+ Add Experiment Test Successfully Completed! 
+
+/* ------------------------  GET EXPERIMENT TEST ------------------------ *\ 
+
+/* STEP 2 : getExp(day,index) method : get the experiment with the given day and position *\ 
+
+
+Some experiments will be get using the getExp(...) method. The experiments gotten are as follows:
+<***1***> day = 6, index = 1 : 
+Experiment{setup='Exp2', day=6, time='18:32:41', accuracy=77.0, completed=true}
+
+<***2***> day = 4 , index = 3 : 
+Experiment{setup='Exp4', day=4, time='16:02:05', accuracy=76.0, completed=true}
+
+<***3***> day = 1 , index = 0 : 
+Experiment{setup='Exp1', day=1, time='02:42:53', accuracy=65.0, completed=true}
+
+<***4***> day = 9 , index = 3 : 
+Experiment{setup='Exp4', day=9, time='19:37:05', accuracy=73.0, completed=true}
+
+<***5***> day = 3 , index = 0 : 
+Experiment{setup='Exp1', day=3, time='12:02:58', accuracy=83.0, completed=true}
+
+<***6***> day = 10 , index = 1 : 
+Experiment{setup='Exp2', day=10, time='19:05:08', accuracy=-1.0, completed=false}
+
+<***7***> day = 3 , index = 1 : 
+null 	 => Because there is no experiment for index 1. 
+
+<***8***> day = 15 , index = 0 : 
+null 	 => Because there is no experiment for day 15. 
+
+
+ Get Experiment Test Successfully Completed! 
+
+/* ------------------------  SET EXPERIMENT TEST ------------------------ *\ 
+
+/* STEP 3 : setExp(day,index, Experiment) method : set the experiment with the given day and position *\ 
+
+
+Some experiments will be set using the setExp(...) method. The experiments to be set are as follows:
+<***1***> day = 3 , index = 0 Experiment to be set: 
+Experiment{setup='Exp1', day=3, time='14:23:07', accuracy=-1.0, completed=false}
+
+<***1***> day = 9 , index = 3 Experiment to be set: 
+Experiment{setup='Exp4', day=9, time='21:08:34', accuracy=54.0, completed=true}
+
+<***1***> day = 1 , index = 2 Experiment to be set: 
+Experiment{setup='Exp3', day=1, time='17:35:23', accuracy=44.0, completed=true}
+
+<***1***> day = 7 , index = 0 Experiment to be set: 
+Experiment{setup='Exp1', day=7, time='18:57:38', accuracy=79.0, completed=true}
+
+<***1***> day = 2 , index = 2 Experiment to be set: 
+Experiment{setup='Exp3', day=2, time='17:25:08', accuracy=37.0, completed=true}
+
+/* ------------------------ AFTER SET EXPERIMENT STEP ------------------------ *\ 
+List experiment view:
+Experiment{setup='Exp1', day=1, time='02:42:53', accuracy=65.0, completed=true}
+Experiment{setup='Exp2', day=1, time='08:12:23', accuracy=-1.0, completed=false}
+Experiment{setup='Exp3', day=1, time='17:35:23', accuracy=44.0, completed=true}
+Experiment{setup='Exp4', day=1, time='23:02:05', accuracy=97.0, completed=true}
+Experiment{setup='Exp1', day=2, time='07:49:25', accuracy=-1.0, completed=false}
+Experiment{setup='Exp2', day=2, time='10:22:53', accuracy=68.0, completed=true}
+Experiment{setup='Exp3', day=2, time='17:25:08', accuracy=37.0, completed=true}
+Experiment{setup='Exp1', day=3, time='14:23:07', accuracy=-1.0, completed=false}
+Experiment{setup='Exp1', day=4, time='05:45:29', accuracy=44.0, completed=true}
+Experiment{setup='Exp2', day=4, time='09:37:19', accuracy=56.0, completed=true}
+Experiment{setup='Exp3', day=4, time='13:22:54', accuracy=-1.0, completed=false}
+Experiment{setup='Exp4', day=4, time='16:02:05', accuracy=76.0, completed=true}
+Experiment{setup='Exp5', day=4, time='20:20:53', accuracy=25.0, completed=true}
+Experiment{setup='Exp1', day=5, time='11:39:27', accuracy=73.0, completed=true}
+Experiment{setup='Exp2', day=5, time='21:32:15', accuracy=54.0, completed=true}
+Experiment{setup='Exp1', day=6, time='08:20:47', accuracy=-1.0, completed=false}
+Experiment{setup='Exp2', day=6, time='18:32:41', accuracy=77.0, completed=true}
+Experiment{setup='Exp3', day=6, time='21:23:45', accuracy=52.0, completed=true}
+Experiment{setup='Exp1', day=7, time='18:57:38', accuracy=79.0, completed=true}
+Experiment{setup='Exp1', day=8, time='01:36:17', accuracy=59.0, completed=true}
+Experiment{setup='Exp2', day=8, time='09:08:39', accuracy=-1.0, completed=false}
+Experiment{setup='Exp1', day=9, time='03:44:38', accuracy=63.0, completed=true}
+Experiment{setup='Exp2', day=9, time='09:12:51', accuracy=-1.0, completed=false}
+Experiment{setup='Exp3', day=9, time='14:42:01', accuracy=49.0, completed=true}
+Experiment{setup='Exp4', day=9, time='21:08:34', accuracy=54.0, completed=true}
+Experiment{setup='Exp1', day=10, time='09:52:55', accuracy=84.0, completed=true}
+Experiment{setup='Exp2', day=10, time='19:05:08', accuracy=-1.0, completed=false}
+List day view:
+Experiment{setup='Exp1', day=1, time='02:42:53', accuracy=65.0, completed=true}
+Experiment{setup='Exp1', day=2, time='07:49:25', accuracy=-1.0, completed=false}
+Experiment{setup='Exp1', day=3, time='14:23:07', accuracy=-1.0, completed=false}
+Experiment{setup='Exp1', day=4, time='05:45:29', accuracy=44.0, completed=true}
+Experiment{setup='Exp1', day=5, time='11:39:27', accuracy=73.0, completed=true}
+Experiment{setup='Exp1', day=6, time='08:20:47', accuracy=-1.0, completed=false}
+Experiment{setup='Exp1', day=7, time='18:57:38', accuracy=79.0, completed=true}
+Experiment{setup='Exp1', day=8, time='01:36:17', accuracy=59.0, completed=true}
+Experiment{setup='Exp1', day=9, time='03:44:38', accuracy=63.0, completed=true}
+Experiment{setup='Exp1', day=10, time='09:52:55', accuracy=84.0, completed=true}
+
+ Set Experiment Test Successfully Completed! 
+
+/* ------------------------  REMOVE EXPERIMENT TEST ------------------------ *\ 
+
+/* STEP 4 : removeExp(day,index) method : remove the experiment specified as index from given day. *\ 
+
+Some experiments will be remove using the removeExp(...) method. The experiments to be remove are as follows:
+<***1***> Experiment to be remove: day = 5 , index = 1 
+<***2***> Experiment to be remove: day = 3 , index = 0 
+<***3***> Experiment to be remove: day = 10 , index = 0 
+<***4***> Experiment to be remove: day = 4 , index = 2 
+<***5***> Experiment to be remove: day = 1 , index = 0 
+<***6***> Experiment to be remove: day = 9 , index = 1 
+<***7***> Experiment to be remove: day = 6 , index = 0 
+/* ------------------------ AFTER REMOVE EXPERIMENT STEP ------------------------ *\ 
+List experiment view:
+Experiment{setup='Exp2', day=1, time='08:12:23', accuracy=-1.0, completed=false}
+Experiment{setup='Exp3', day=1, time='17:35:23', accuracy=44.0, completed=true}
+Experiment{setup='Exp4', day=1, time='23:02:05', accuracy=97.0, completed=true}
+Experiment{setup='Exp1', day=2, time='07:49:25', accuracy=-1.0, completed=false}
+Experiment{setup='Exp2', day=2, time='10:22:53', accuracy=68.0, completed=true}
+Experiment{setup='Exp3', day=2, time='17:25:08', accuracy=37.0, completed=true}
+Experiment{setup='Exp1', day=4, time='05:45:29', accuracy=44.0, completed=true}
+Experiment{setup='Exp2', day=4, time='09:37:19', accuracy=56.0, completed=true}
+Experiment{setup='Exp4', day=4, time='16:02:05', accuracy=76.0, completed=true}
+Experiment{setup='Exp5', day=4, time='20:20:53', accuracy=25.0, completed=true}
+Experiment{setup='Exp1', day=5, time='11:39:27', accuracy=73.0, completed=true}
+Experiment{setup='Exp2', day=6, time='18:32:41', accuracy=77.0, completed=true}
+Experiment{setup='Exp3', day=6, time='21:23:45', accuracy=52.0, completed=true}
+Experiment{setup='Exp1', day=7, time='18:57:38', accuracy=79.0, completed=true}
+Experiment{setup='Exp1', day=8, time='01:36:17', accuracy=59.0, completed=true}
+Experiment{setup='Exp2', day=8, time='09:08:39', accuracy=-1.0, completed=false}
+Experiment{setup='Exp1', day=9, time='03:44:38', accuracy=63.0, completed=true}
+Experiment{setup='Exp3', day=9, time='14:42:01', accuracy=49.0, completed=true}
+Experiment{setup='Exp4', day=9, time='21:08:34', accuracy=54.0, completed=true}
+Experiment{setup='Exp2', day=10, time='19:05:08', accuracy=-1.0, completed=false}
+List day view:
+Experiment{setup='Exp2', day=1, time='08:12:23', accuracy=-1.0, completed=false}
+Experiment{setup='Exp1', day=2, time='07:49:25', accuracy=-1.0, completed=false}
+Experiment{setup='Exp1', day=4, time='05:45:29', accuracy=44.0, completed=true}
+Experiment{setup='Exp1', day=5, time='11:39:27', accuracy=73.0, completed=true}
+Experiment{setup='Exp2', day=6, time='18:32:41', accuracy=77.0, completed=true}
+Experiment{setup='Exp1', day=7, time='18:57:38', accuracy=79.0, completed=true}
+Experiment{setup='Exp1', day=8, time='01:36:17', accuracy=59.0, completed=true}
+Experiment{setup='Exp1', day=9, time='03:44:38', accuracy=63.0, completed=true}
+Experiment{setup='Exp2', day=10, time='19:05:08', accuracy=-1.0, completed=false}
+
+ Remove Experiment Test Successfully Completed! 
+
+/* ------------------------  LIST EXPERIMENT TEST ------------------------ *\ 
+
+/* STEP 5 : listExp(day) method : list all completed experiments in a given day. *\ 
+
+Experiments that are on some days will be list using the listExp(...) method. The days to be list are as follows:
+
+*** DAY 4: *** 
+Experiment{setup='Exp1', day=4, time='05:45:29', accuracy=44.0, completed=true}
+Experiment{setup='Exp2', day=4, time='09:37:19', accuracy=56.0, completed=true}
+Experiment{setup='Exp4', day=4, time='16:02:05', accuracy=76.0, completed=true}
+Experiment{setup='Exp5', day=4, time='20:20:53', accuracy=25.0, completed=true}
+
+*** DAY 10: *** 
+
+
+*** DAY 2: *** 
+Experiment{setup='Exp2', day=2, time='10:22:53', accuracy=68.0, completed=true}
+Experiment{setup='Exp3', day=2, time='17:25:08', accuracy=37.0, completed=true}
+
+*** DAY 8: *** 
+Experiment{setup='Exp1', day=8, time='01:36:17', accuracy=59.0, completed=true}
+
+*** DAY 1: *** 
+Experiment{setup='Exp3', day=1, time='17:35:23', accuracy=44.0, completed=true}
+Experiment{setup='Exp4', day=1, time='23:02:05', accuracy=97.0, completed=true}
+
+ List Experiment Test Successfully Completed! 
+
+/* ------------------------  REMOVE DAY TEST ------------------------ *\ 
+
+/* STEP 6 : removeDay(day) method : remove all experiments in a given day. *\ 
+
+Experiments that are on some days will be remove using the removeDay(...) method. The days to be remove are as follows:
+
+*** REMOVE 7. DAY *** 
+
+*** REMOVE 1. DAY *** 
+
+*** REMOVE 10. DAY *** 
+/* ------------------------ AFTER REMOVE DAY STEP ------------------------ *\ 
+List experiment view:
+Experiment{setup='Exp1', day=2, time='07:49:25', accuracy=-1.0, completed=false}
+Experiment{setup='Exp2', day=2, time='10:22:53', accuracy=68.0, completed=true}
+Experiment{setup='Exp3', day=2, time='17:25:08', accuracy=37.0, completed=true}
+Experiment{setup='Exp1', day=4, time='05:45:29', accuracy=44.0, completed=true}
+Experiment{setup='Exp2', day=4, time='09:37:19', accuracy=56.0, completed=true}
+Experiment{setup='Exp4', day=4, time='16:02:05', accuracy=76.0, completed=true}
+Experiment{setup='Exp5', day=4, time='20:20:53', accuracy=25.0, completed=true}
+Experiment{setup='Exp1', day=5, time='11:39:27', accuracy=73.0, completed=true}
+Experiment{setup='Exp2', day=6, time='18:32:41', accuracy=77.0, completed=true}
+Experiment{setup='Exp3', day=6, time='21:23:45', accuracy=52.0, completed=true}
+Experiment{setup='Exp1', day=8, time='01:36:17', accuracy=59.0, completed=true}
+Experiment{setup='Exp2', day=8, time='09:08:39', accuracy=-1.0, completed=false}
+Experiment{setup='Exp1', day=9, time='03:44:38', accuracy=63.0, completed=true}
+Experiment{setup='Exp3', day=9, time='14:42:01', accuracy=49.0, completed=true}
+Experiment{setup='Exp4', day=9, time='21:08:34', accuracy=54.0, completed=true}
+List day view:
+Experiment{setup='Exp1', day=2, time='07:49:25', accuracy=-1.0, completed=false}
+Experiment{setup='Exp1', day=4, time='05:45:29', accuracy=44.0, completed=true}
+Experiment{setup='Exp1', day=5, time='11:39:27', accuracy=73.0, completed=true}
+Experiment{setup='Exp2', day=6, time='18:32:41', accuracy=77.0, completed=true}
+Experiment{setup='Exp1', day=8, time='01:36:17', accuracy=59.0, completed=true}
+Experiment{setup='Exp1', day=9, time='03:44:38', accuracy=63.0, completed=true}
+
+ Remove Day Test Successfully Completed! 
+
+/* ------------------------  ORDER DAY TEST ------------------------ *\ 
+
+/* STEP 7 : orderDay(day) method : sorts the experiments in a given day according to the accuracy, the changes will be done on the list. *\ 
+
+Experiments that are on some days will be order using the orderDay(...) method. The days to be order are as follows:
+
+*** ORDER 4. DAY *** 
+
+*** ORDER 9. DAY *** 
+
+*** ORDER 2. DAY *** 
+/* ------------------------ AFTER ORDER DAY STEP ------------------------ *\ 
+List experiment view:
+Experiment{setup='Exp1', day=2, time='07:49:25', accuracy=-1.0, completed=false}
+Experiment{setup='Exp3', day=2, time='17:25:08', accuracy=37.0, completed=true}
+Experiment{setup='Exp2', day=2, time='10:22:53', accuracy=68.0, completed=true}
+Experiment{setup='Exp5', day=4, time='20:20:53', accuracy=25.0, completed=true}
+Experiment{setup='Exp1', day=4, time='05:45:29', accuracy=44.0, completed=true}
+Experiment{setup='Exp2', day=4, time='09:37:19', accuracy=56.0, completed=true}
+Experiment{setup='Exp4', day=4, time='16:02:05', accuracy=76.0, completed=true}
+Experiment{setup='Exp1', day=5, time='11:39:27', accuracy=73.0, completed=true}
+Experiment{setup='Exp2', day=6, time='18:32:41', accuracy=77.0, completed=true}
+Experiment{setup='Exp3', day=6, time='21:23:45', accuracy=52.0, completed=true}
+Experiment{setup='Exp1', day=8, time='01:36:17', accuracy=59.0, completed=true}
+Experiment{setup='Exp2', day=8, time='09:08:39', accuracy=-1.0, completed=false}
+Experiment{setup='Exp3', day=9, time='14:42:01', accuracy=49.0, completed=true}
+Experiment{setup='Exp4', day=9, time='21:08:34', accuracy=54.0, completed=true}
+Experiment{setup='Exp1', day=9, time='03:44:38', accuracy=63.0, completed=true}
+List day view:
+Experiment{setup='Exp1', day=2, time='07:49:25', accuracy=-1.0, completed=false}
+Experiment{setup='Exp5', day=4, time='20:20:53', accuracy=25.0, completed=true}
+Experiment{setup='Exp1', day=5, time='11:39:27', accuracy=73.0, completed=true}
+Experiment{setup='Exp2', day=6, time='18:32:41', accuracy=77.0, completed=true}
+Experiment{setup='Exp1', day=8, time='01:36:17', accuracy=59.0, completed=true}
+Experiment{setup='Exp3', day=9, time='14:42:01', accuracy=49.0, completed=true}
+
+ Order Day Test Successfully Completed! 
+
+/* ------------------------  ORDER EXPERIMENTS TEST ------------------------ *\ 
+
+/* STEP 8 : orderExperiments(day) method : sorts all the experiments in the list according to the accuracy, the original list should not be changed since the day list may be damage. *\ 
+
+All Experiments will be order using the orderExperiments(...) method. The experiments to be order are as follows:
+
+*** ORDER ALL EXPERIMENTS *** 
+/* ------------------------ AFTER ORDER EXPERIMENTS STEP ------------------------ *\ 
+
+						EXPERIMENTS
+--------------------------------------------------------------
+Experiment{setup='Exp2', day=8, time='09:08:39', accuracy=-1.0, completed=false}
+Experiment{setup='Exp1', day=2, time='07:49:25', accuracy=-1.0, completed=false}
+Experiment{setup='Exp5', day=4, time='20:20:53', accuracy=25.0, completed=true}
+Experiment{setup='Exp3', day=2, time='17:25:08', accuracy=37.0, completed=true}
+Experiment{setup='Exp1', day=4, time='05:45:29', accuracy=44.0, completed=true}
+Experiment{setup='Exp3', day=9, time='14:42:01', accuracy=49.0, completed=true}
+Experiment{setup='Exp3', day=6, time='21:23:45', accuracy=52.0, completed=true}
+Experiment{setup='Exp4', day=9, time='21:08:34', accuracy=54.0, completed=true}
+Experiment{setup='Exp2', day=4, time='09:37:19', accuracy=56.0, completed=true}
+Experiment{setup='Exp1', day=8, time='01:36:17', accuracy=59.0, completed=true}
+Experiment{setup='Exp1', day=9, time='03:44:38', accuracy=63.0, completed=true}
+Experiment{setup='Exp2', day=2, time='10:22:53', accuracy=68.0, completed=true}
+Experiment{setup='Exp1', day=5, time='11:39:27', accuracy=73.0, completed=true}
+Experiment{setup='Exp4', day=4, time='16:02:05', accuracy=76.0, completed=true}
+Experiment{setup='Exp2', day=6, time='18:32:41', accuracy=77.0, completed=true}
+Total experiment : 15 
+--------------------------------------------------------------
+
+ Order Experiments Test Successfully Completed! 
+
+/* ------------------------  ITERATOR TEST ------------------------ *\ 
+
+=> * Test hasNext() and next() methods. All experiments will be printed using iterator. *
+Experiment{setup='Exp1', day=2, time='07:49:25', accuracy=-1.0, completed=false}
+Experiment{setup='Exp3', day=2, time='17:25:08', accuracy=37.0, completed=true}
+Experiment{setup='Exp2', day=2, time='10:22:53', accuracy=68.0, completed=true}
+Experiment{setup='Exp5', day=4, time='20:20:53', accuracy=25.0, completed=true}
+Experiment{setup='Exp1', day=4, time='05:45:29', accuracy=44.0, completed=true}
+Experiment{setup='Exp2', day=4, time='09:37:19', accuracy=56.0, completed=true}
+Experiment{setup='Exp4', day=4, time='16:02:05', accuracy=76.0, completed=true}
+Experiment{setup='Exp1', day=5, time='11:39:27', accuracy=73.0, completed=true}
+Experiment{setup='Exp2', day=6, time='18:32:41', accuracy=77.0, completed=true}
+Experiment{setup='Exp3', day=6, time='21:23:45', accuracy=52.0, completed=true}
+Experiment{setup='Exp1', day=8, time='01:36:17', accuracy=59.0, completed=true}
+Experiment{setup='Exp2', day=8, time='09:08:39', accuracy=-1.0, completed=false}
+Experiment{setup='Exp3', day=9, time='14:42:01', accuracy=49.0, completed=true}
+Experiment{setup='Exp4', day=9, time='21:08:34', accuracy=54.0, completed=true}
+Experiment{setup='Exp1', day=9, time='03:44:38', accuracy=63.0, completed=true}
+
+ ITERATOR hasNext() and next() methods Test Successfully Completed! 
+
+=> * Test remove() method. Some experiments will be removed using iterator. *
+
+/* ------------------------ BEFORE ITERATOR REMOVE STEP ------------------------ *\ 
+List experiment view:
+Experiment{setup='Exp1', day=2, time='07:49:25', accuracy=-1.0, completed=false}
+Experiment{setup='Exp3', day=2, time='17:25:08', accuracy=37.0, completed=true}
+Experiment{setup='Exp2', day=2, time='10:22:53', accuracy=68.0, completed=true}
+Experiment{setup='Exp5', day=4, time='20:20:53', accuracy=25.0, completed=true}
+Experiment{setup='Exp1', day=4, time='05:45:29', accuracy=44.0, completed=true}
+Experiment{setup='Exp2', day=4, time='09:37:19', accuracy=56.0, completed=true}
+Experiment{setup='Exp4', day=4, time='16:02:05', accuracy=76.0, completed=true}
+Experiment{setup='Exp1', day=5, time='11:39:27', accuracy=73.0, completed=true}
+Experiment{setup='Exp2', day=6, time='18:32:41', accuracy=77.0, completed=true}
+Experiment{setup='Exp3', day=6, time='21:23:45', accuracy=52.0, completed=true}
+Experiment{setup='Exp1', day=8, time='01:36:17', accuracy=59.0, completed=true}
+Experiment{setup='Exp2', day=8, time='09:08:39', accuracy=-1.0, completed=false}
+Experiment{setup='Exp3', day=9, time='14:42:01', accuracy=49.0, completed=true}
+Experiment{setup='Exp4', day=9, time='21:08:34', accuracy=54.0, completed=true}
+Experiment{setup='Exp1', day=9, time='03:44:38', accuracy=63.0, completed=true}
+List day view:
+Experiment{setup='Exp1', day=2, time='07:49:25', accuracy=-1.0, completed=false}
+Experiment{setup='Exp5', day=4, time='20:20:53', accuracy=25.0, completed=true}
+Experiment{setup='Exp1', day=5, time='11:39:27', accuracy=73.0, completed=true}
+Experiment{setup='Exp2', day=6, time='18:32:41', accuracy=77.0, completed=true}
+Experiment{setup='Exp1', day=8, time='01:36:17', accuracy=59.0, completed=true}
+Experiment{setup='Exp3', day=9, time='14:42:01', accuracy=49.0, completed=true}
+
+Removed experiment: Experiment{setup='Exp1', day=2, time='07:49:25', accuracy=-1.0, completed=false}
+
+Removed experiment: Experiment{setup='Exp5', day=4, time='20:20:53', accuracy=25.0, completed=true}
+
+Removed experiment: Experiment{setup='Exp1', day=4, time='05:45:29', accuracy=44.0, completed=true}
+
+Removed experiment: Experiment{setup='Exp4', day=4, time='16:02:05', accuracy=76.0, completed=true}
+
+Removed experiment: Experiment{setup='Exp1', day=5, time='11:39:27', accuracy=73.0, completed=true}
+
+Removed experiment: Experiment{setup='Exp2', day=6, time='18:32:41', accuracy=77.0, completed=true}
+
+Removed experiment: Experiment{setup='Exp3', day=9, time='14:42:01', accuracy=49.0, completed=true}
+
+Removed experiment: Experiment{setup='Exp1', day=9, time='03:44:38', accuracy=63.0, completed=true}
+
+/* ------------------------ AFTER ITERATOR REMOVE STEP ------------------------ *\ 
+List experiment view:
+Experiment{setup='Exp3', day=2, time='17:25:08', accuracy=37.0, completed=true}
+Experiment{setup='Exp2', day=2, time='10:22:53', accuracy=68.0, completed=true}
+Experiment{setup='Exp2', day=4, time='09:37:19', accuracy=56.0, completed=true}
+Experiment{setup='Exp3', day=6, time='21:23:45', accuracy=52.0, completed=true}
+Experiment{setup='Exp1', day=8, time='01:36:17', accuracy=59.0, completed=true}
+Experiment{setup='Exp2', day=8, time='09:08:39', accuracy=-1.0, completed=false}
+Experiment{setup='Exp4', day=9, time='21:08:34', accuracy=54.0, completed=true}
+List day view:
+Experiment{setup='Exp3', day=2, time='17:25:08', accuracy=37.0, completed=true}
+Experiment{setup='Exp2', day=4, time='09:37:19', accuracy=56.0, completed=true}
+Experiment{setup='Exp3', day=6, time='21:23:45', accuracy=52.0, completed=true}
+Experiment{setup='Exp1', day=8, time='01:36:17', accuracy=59.0, completed=true}
+Experiment{setup='Exp4', day=9, time='21:08:34', accuracy=54.0, completed=true}
+
+ ITERATOR remove methods Test Successfully Completed! 
+
+
+************** ALL METHODS HAVE BEEN SUCCESSFULLY TESTED. ************** 
+
+Process finished with exit code 0
